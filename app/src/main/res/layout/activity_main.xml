@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QLNSActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ NHÂN SỰ"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FPOLY SOFTWERE COMPANY"
+        android:textColor="#f00"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/txtPhong"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boder" >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/baseline_add_home_work_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phòng ban"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/txtNV"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/boder" >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/users_solid"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhân viên"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/txtThoat"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/right_from_bracket_solid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thoát" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

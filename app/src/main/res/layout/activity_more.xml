@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MoreActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="THÊM PHÒNG NHÂN VIÊN MỚI "
+        android:textColor="#03A9F4"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Mã NV:"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtMaNV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Nhập Mã NV:"
+        android:paddingHorizontal="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Họ ten:"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtTenNV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Nhập Họ ten:"
+        android:paddingHorizontal="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Phòng ban : "
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtPhongBan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Nhập Phòng ban : "
+        android:paddingHorizontal="10dp" />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="THÊM"
+        android:textStyle="bold" />
+
+</LinearLayout>

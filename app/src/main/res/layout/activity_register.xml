@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chào Mừng Bạn,"
+        android:paddingTop="80dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#03A9F4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký tài khoản"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:textColor="#0A0A0B"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#DFDCDC"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Inputname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usename"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Inputpas"
+            android:layout_width="match_parent"
+            android:hint="PassWord"
+            android:inputType="textPassword"
+            android:background="#DCD8D8"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Inputcomfrim"
+            android:layout_width="match_parent"
+            android:hint="Nhập lại PassWord"
+            android:background="#DCD8D8"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btlRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="Đăng Kí"/>
+    <Button
+        android:id="@+id/btlReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#0A0A0B"
+        android:layout_marginRight="20dp"
+        android:text="Trở Về"/>
+
+
+</LinearLayout>
